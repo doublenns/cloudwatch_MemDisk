@@ -10,5 +10,6 @@ variable "region" {
   default = "us-east-1"
 }
 
+# Usually:
 # curl -s ipinfo.io | grep ip | cut -f2 -d: | tr -d \"," "
 current_public_ip {}
